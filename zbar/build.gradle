@@ -10,6 +10,6 @@ ext {
 
 dependencies {
 //    api project(":core")
-    api libraries.barcodescanner_core
+    api project(':core')
     api fileTree(dir: 'libs', include: '*.jar')
 }
